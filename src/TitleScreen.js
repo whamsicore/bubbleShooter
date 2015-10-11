@@ -23,7 +23,7 @@ exports = Class(ui.ImageView, function (supr) {
       width: device.width,
       height: 200,
       autoSize: false,
-      size: 180,
+      size: 280,
       verticalAlign: 'middle',
       horizontalAlign: 'center',
       wrap: true,

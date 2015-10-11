@@ -27,7 +27,7 @@ exports = Class(GC.Application, function () {
     var _GameScreen = new GameScreen({
       superview: this.view,
     // image: 'resources/images/background.png',
-      backgroundColor: 'orange',
+      backgroundColor: '#333',
       x: 0,
       y: 0,
       width: device.width,
@@ -47,7 +47,8 @@ exports = Class(GC.Application, function () {
     });
 
     _TitleScreen.on('title:launch', function (){
-      console.log("Application -------> title:launch");
+      rootView.push(_GameScreen);
+
     });
 
     rootView.push(_TitleScreen);
