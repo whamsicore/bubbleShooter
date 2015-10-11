@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+#1be7194b74354235806dabb8b449db94 version debug
+
+CACHE:
+spritesheets/spritesheetSizeMap.json
+index.html
+native-ios.js
+
+FALLBACK:
+
+NETWORK:
+*
